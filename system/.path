@@ -1,0 +1,2 @@
+# Add Python 3.7 bin to path
+export PATH="/Users/tom/Library/Python/3.7/bin/:$PATH";
