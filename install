@@ -1,3 +1,5 @@
 #!/usr/bin/env sh
 echo "Installing.."
 ln -sv /Users/tom/.dotfiles/zsh/.zshrc ~/.zshrc
+
+# explanation: http://iamnotmyself.com/2020/11/10/your-terminal-and-you-dotfiles/#:~:text=zshrc%20file%20in%20the%20home,dotfiles%2Fzsh%20directory.

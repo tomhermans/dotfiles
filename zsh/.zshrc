@@ -115,59 +115,6 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 #
 # Example aliases
 
-#gulp commands
-alias -g gs='gulp serve'
-alias -g gw='gulp watch'
-alias -g gb='gulp build'
-
-
-#npm commands
-alias -g nr='npm run'
-alias -g nrs='npm run start'
-alias -g ni='npm i'
-alias -g nid='npm i -D'
-alias -g nig='npm i -g'
-alias -g no='npm outdated'
-alias -g nog='npm outdated -g --depth=0'
-alias -g nr='npm run'
-alias -g nrb='npm run build'
-alias -g nrd='npm run dev'
-alias -g nrf='npm run format'
-alias -g nrs='npm run start'
-alias -g nu='npm un'
-alias -g nug='npm -g un'
-alias -g nlg='npm list -g --depth=0'
-
-# own existing commands
-alias -g zshconfig="code ~/.zshrc"
-alias -g zshcode="code ~/.zshrc"
-alias -g codezsh="code ~/.zshrc"
-alias -g zshsource="source ~/.zshrc"
-alias -g sourcezsh="source ~/.zshrc"
-alias -g c="code ."
-
-
-#
-alias -s txt=code
-alias -s json=code
-
-# pnpm commands
-alias -g pr='pnpm run'
-alias -g prs='pnpm run start'
-alias -g pi='pnpm i'
-alias -g pid='pnpm i -D'
-alias -g pig='pnpm i -g'
-alias -g po='pnpm outdated'
-alias -g pog='pnpm outdated -g --depth=0'
-alias -g pr='pnpm run'
-alias -g prb='pnpm run build'
-alias -g prd='pnpm run dev'
-alias -g prf='pnpm run format'
-alias -g prs='pnpm run start'
-alias -g pu='pnpm un'
-alias -g pug='pnpm -g un'
-alias -g plg='pnpm list -g --depth=0'
-
 
 mkcd() {
     mkdir -p -- "$1" && cd -P -- "$1"

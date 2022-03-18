@@ -1,6 +1,7 @@
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+brew install python
 brew install git
 brew install node
 brew install wget
@@ -39,9 +40,6 @@ brew install google-chrome
 # brew install skype
 # brew install rightzoom
 # brew install vlc
-
-brew install firefox
-brew install google-chrome
 
 # quick look plugins (https://github.com/sindresorhus/quick-look-plugins)
 # brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo
