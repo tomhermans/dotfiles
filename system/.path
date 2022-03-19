@@ -3,3 +3,5 @@ export PATH="/Users/tom/Library/Python/3.7/bin/:$PATH";
 export PATH="/Users/tom/Library/Python/3.8/bin/:$PATH";
 
 export PATH="$PATH:/opt/homebrew/bin/"
+
+export PATH="$HOME/.local/bin:$PATH"
